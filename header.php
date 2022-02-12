@@ -29,6 +29,7 @@ the opening <body> tag of your WordPress Theme.  (functions.php) -->
               
                 <h1 class="titre-principal"><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo( 'title' ) ?></a></h1>
                 <div class="slogan"><?php bloginfo( 'description' ) ?></div>
+
             </section>
             <nav class="flex v-aligne">
 
