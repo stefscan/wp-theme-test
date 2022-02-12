@@ -4,6 +4,8 @@
 
     <section class="trois-quart">
 
+        <p>Oups... Il n'y a rien ici.</p>
+
         <?php get_template_part( "templates/generic-loop" ) ?>
 
     </section>
