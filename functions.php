@@ -58,10 +58,7 @@ function simplenews_widgets_init($id){
         'description' => 'Widget afficher en haut du sidebar',
         // Ici on déclare la balise devant englober le widget
         'before_widget' => '<div class="side-widget">',
-        'after_widget' => '</div>',
-        // Ici on déclare la balise devant être utilisée pour le titre
-        'before_title' => '<h3>',
-        'after_title' => '</h3>'
+        'after_widget' => '</div>'
 
      ));
 
@@ -74,10 +71,7 @@ function simplenews_widgets_init($id){
         'description' => 'Widget afficher au bas du sidebar',
         // Ici on déclare la balise devant englober le widget
         'before_widget' => '<div class="side-widget">',
-        'after_widget' => '</div>',
-        // Ici on déclare la balise devant être utilisée pour le titre
-        'before_title' => '<h3>',
-        'after_title' => '</h3>'
+        'after_widget' => '</div>'
 
      ));
 }
