@@ -50,7 +50,15 @@ the opening <body> tag of your WordPress Theme.  (functions.php) -->
                     <li><a href="#" class="btn">Contact</a></li>
                 </ul>-->
             </nav>
+           
         </div>
+        
     </header>
+
+    <div class="conteneur flex align-right">
+        <form action="<?php echo esc_url(home_url('/')); ?>" method="get">
+            <input type="text" name="s" placeholder="Rechercher">
+        </form>
+    </div>
 
     <main class="conteneur">

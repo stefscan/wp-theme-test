@@ -17,20 +17,20 @@ Template Name: Gabarit accueil
     // Requête custom : Récupérer des contenus spécifique
 
     // Premier exemple Exemple pour une catégorie et/ou un post_type spécifique
-    $args = array(
+    /*$args = array(
         'category_name' => 'Techno',
         'post_type' => 'post'
-    );
+    );*/
 
 
     
     // Faire en sorte d'avoir seulement les nouvelles
-    /*$args = array(
+    $args = array(
         'category__not_in' => 1
 
         // Omettre plusieurs catégories
         //'category__not_in' => array(1, 4)
-    );*/
+    );
 
     $query = new WP_Query($args);
 

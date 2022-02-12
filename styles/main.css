@@ -89,6 +89,10 @@ a{
     flex-basis: 75%;
 }
 
+.align-right{
+    justify-content: flex-end;
+}
+
 header{
     height: 150px;
     border-bottom: 1px solid #ccc;
