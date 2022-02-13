@@ -6,6 +6,7 @@
             <?php  get_template_part( 'templates/generic-loop' ) ?>
 
             </section>
+
             <section class="quart sidebar">
                 <?php get_sidebar( ) ?>
             </section>

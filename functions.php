@@ -48,7 +48,6 @@ add_action('after_setup_theme', 'simplenews_register_menus' );
 
 function simplenews_widgets_init($id){
 
-
     register_sidebar(array(
 
         // Ici on déclare le nom du widget. C'est celui-ci qui sera visible dans l'admin de WordPress
