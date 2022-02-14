@@ -6,11 +6,7 @@
     <meta charset="<?php bloginfo( 'charset' ) ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- NOTE : Commenter  ou retirer après avoir ajouté support de title-tag
-    <title><?php bloginfo( 'title' ) ?></title>
--->
-
+    
     <!-- action hooks : Placeholders where code is dynamically added to a theme -->
     <?php wp_head(  ); ?>
 
@@ -27,7 +23,7 @@ the opening <body> tag of your WordPress Theme.  (functions.php) -->
         <div class="conteneur flex space-between">
             <section>
               
-                <h1 class="titre-principal"><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo( 'title' ) ?></a></h1>
+                <h1 class="titre-principal"><a href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo( 'title' ); ?></a></h1>
                 <div class="slogan"><?php bloginfo( 'description' ) ?></div>
             </section>
             <nav class="flex v-aligne">
