@@ -47,7 +47,7 @@ the opening <body> tag of your WordPress Theme.  (functions.php) -->
             </nav>
            
         </div>
-        test
+      
     </header>
 
     <div class="conteneur flex align-right">
