@@ -1,7 +1,7 @@
 <?php get_header( ); ?>
 
 <div>
-
+Test
     <h2>Résultats de recherche</h2>
 
 <?php if(have_posts()) : ?>
